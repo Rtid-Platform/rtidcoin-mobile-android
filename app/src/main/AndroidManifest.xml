@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.elicoinwallet">
+    package="com.rtidcoinwallet">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -45,7 +45,7 @@
         android:required="false" />
 
     <application
-        android:name="com.elicoinwallet.ElicoinApp"
+        android:name="com.rtidcoinwallet.RtidcoinApp"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
@@ -60,7 +60,7 @@
             android:value="3b1c40cc959810a9b969e7d11394c5f0"/>
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.elicoinwallet"
+            android:authorities="com.rtidcoinwallet"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -69,7 +69,7 @@
         </provider>
 
         <activity
-            android:name="com.elicoinwallet.presenter.activities.intro.IntroActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.intro.IntroActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
@@ -80,7 +80,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.elicoinwallet.presenter.activities.WalletActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.WalletActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
@@ -93,7 +93,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <!--<data android:scheme="bitcoin" />-->
-                <data android:scheme="elicoin" />
+                <data android:scheme="rtidcoin" />
                 <!--<data android:scheme="bread" />-->
                 <!--<data android:scheme="bitcoincash" />-->
                 <!--<data android:scheme="bchtest" />-->
@@ -107,136 +107,136 @@
                 android:resource="@xml/searchable" />
         </activity>
         <activity
-            android:name="com.elicoinwallet.presenter.activities.SetPinActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.SetPinActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.intro.IntroClaimActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.intro.IntroClaimActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.intro.RecoverActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.intro.RecoverActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.UnlinkActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.UnlinkActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.ImportActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.ImportActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.ReEnterPinActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.ReEnterPinActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.UpdatePinActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.UpdatePinActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.LoginActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.LoginActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.SettingsActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.SettingsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.NotificationActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.NotificationActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.SyncBlockchainActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.SyncBlockchainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.DisplayCurrencyActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.DisplayCurrencyActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.AboutActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.AboutActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.SecurityCenterActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.SecurityCenterActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.ShareDataActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.ShareDataActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.intro.WriteDownActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.intro.WriteDownActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.PaperKeyActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.PaperKeyActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.SpendLimitActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.SpendLimitActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.PaperKeyProveActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.PaperKeyProveActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.InputWordsActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.InputWordsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.camera.ScanQRActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.camera.ScanQRActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"></activity>
         <!-- Use launchMode="standard for WebViewActivity in order to be able to have multiple instances" -->
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.WebViewActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.WebViewActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="standard"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.DisabledActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.DisabledActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.FingerprintActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.FingerprintActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.AdvancedActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.AdvancedActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.NodesActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.NodesActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.camera.CameraActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.camera.CameraActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.settings.TestActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.settings.TestActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.HomeActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.HomeActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.elicoinwallet.presenter.activities.CurrencySettingsActivity"
+            android:name="com.rtidcoinwallet.presenter.activities.CurrencySettingsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"></activity>
 
         <service
-            android:name="com.elicoinwallet.tools.listeners.SyncReceiver"
+            android:name="com.rtidcoinwallet.tools.listeners.SyncReceiver"
             android:enabled="true"
             android:exported="false"
             android:label="SyncReceiver" />
         <service
-            android:name="com.elicoinwallet.tools.services.SyncService"
+            android:name="com.rtidcoinwallet.tools.services.SyncService"
             android:enabled="true"
             android:exported="false"></service>
     </application>

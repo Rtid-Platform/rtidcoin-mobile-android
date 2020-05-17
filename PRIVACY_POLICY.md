@@ -1,7 +1,7 @@
 Privacy Policy
-Effective date: May 22, 2018
+Effective date: May 22, 2020
 
-Elicoin developers ("us", "we", or "our") operates the elicoin.net website and the Elicoin Wallet mobile application (the "Service").
+Rtidcoin developers ("us", "we", or "our") operates the rtidcoin.net website and the Rtidcoin Wallet mobile application (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
@@ -9,7 +9,7 @@ We use your data to provide and improve the Service. By using the Service, you a
 Definitions
 Service
 
-Service means the elicoin.net website and the Elicoin Wallet mobile application operated by Breadwinner AG
+Service means the rtidcoin.net website and the Rtidcoin Wallet mobile application operated by Breadwinner AG
 Partner Service
 
 Partner Service means a service or feature offered by a third-party partner directly to users of the Service.
@@ -196,4 +196,4 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 Contact Us
 
-If you have any questions about this Privacy Policy, please contact us by email: info@elicoin.net
+If you have any questions about this Privacy Policy, please contact us by email: info@rtidcoin.net
