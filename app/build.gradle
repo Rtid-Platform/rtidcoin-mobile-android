@@ -15,7 +15,7 @@ android {
     buildToolsVersion = '27.0.3'
     defaultConfig {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
-        applicationId = 'com.elicoinwallet'
+        applicationId = 'com.rtidcoinwallet'
         minSdkVersion 23
         targetSdkVersion 27
         versionCode 232
@@ -55,9 +55,9 @@ android {
     flavorDimensions "mode"
     productFlavors {
         eli {
-            applicationId = "com.elicoinwallet"
+            applicationId = "com.rtidcoinwallet"
             dimension "mode"
-            resValue "string", "app_name", "Elicoin Wallet"
+            resValue "string", "app_name", "Rtidcoin Wallet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
             externalNativeBuild {
                 cmake {
@@ -70,9 +70,9 @@ android {
             }
         }
         eliTestnet {
-            applicationId = "com.elicoinwallet"
+            applicationId = "com.rtidcoinwallet"
             dimension "mode"
-            resValue "string", "app_name", "ELI-testnet"
+            resValue "string", "app_name", "RTID-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
             externalNativeBuild {
                 cmake {
